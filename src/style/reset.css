@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul { list-style: none; margin: 0; padding: 0; }
+.yahei { font-family: 'Microsoft Yahei',sans-serif; }
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }

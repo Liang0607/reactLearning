@@ -1,0 +1,83 @@
+.calendar-wrap {
+	width: 230px;
+	color: rgba(0,0,0,.65);
+}
+.calendar-input {
+	width: 230px;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 3px;
+	outline: none;
+}
+.calendar-date-panel {
+	border: 1px solid #a9a9a9;
+	border-top: 0;
+	padding: 2px;
+	overflow: hidden;
+}
+.calendar-header {
+	text-align: center;
+	padding: 10px 0 5px;
+	background-color: #eaeaea;
+}
+.calendar-header .vito-calendar-ym-select {
+
+}
+.calendar-header a {
+	padding: 0 5px;
+	cursor: pointer;
+}
+.calendar-header .fl,
+.calendar-header .fr {
+	width: 20px;
+	cursor: pointer;
+}
+.calendar-column-header {
+	line-height: 18px;
+    width: 33px;
+    padding: 6px 0;
+    text-align: center;
+}
+.calendar-column-header .calendar-column-header-inner {
+    display: block;
+    font-weight: 400;
+}
+
+.calendar-cell {
+	text-align: center;
+	color: rgba(0,0,0,.65);
+	cursor: pointer;
+}
+.calendar-cell:hover {
+	background: #ecf6fd;
+    cursor: pointer;
+}
+.calendar-cell.last,
+.calendar-cell.next {
+	color: rgba(0,0,0,.25);
+}
+.calendar-cell.select {
+	background-color: #108ee9;
+	border-radius: 2px;
+	color: #fff;
+}
+.calendar-cell.today.noselect {
+	border: 1px solid #108ee9;
+	border-radius: 2px;
+	color: #108ee9;
+}
+
+.calendar-month-ul li,
+.calendar-year-ul li {
+	width: 30%;
+	line-height: 30px;
+	float: left;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.calendar-month-item.select,
+.calendar-year-item.select {
+	border: 1px solid #108ee9;
+	color: #108ee9;
+	border-radius: 4px;
+}
